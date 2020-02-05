@@ -1,0 +1,80 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+ 
+html, body {
+height: 100%;
+}
+
+body {
+	padding: 0;
+	padding-top: 56px;
+    margin: 0;
+    background-color: #f2f3f4;
+}
+
+.barraSuperior{
+	background-color: #0b4376 !important;
+}
+
+/* Clases para adaptar la columna derecha segun el tamaño de las izquiera */
+.rowColumnas {
+	display: flex;
+}
+
+.columna2 {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.altoPanelB {
+	height: 100% !important;
+}
+
+.altoPanelA {
+	min-height: 39vh;
+}
+
+.altoPanelC {
+	min-height: 39vh;
+}
+
+/* Se reducen los margenes */
+@media (min-width: 576px) {
+	.container {
+	  max-width: 740px;
+	}
+  }
+  
+  @media (min-width: 768px) {
+	.container {
+	  max-width: 920px;
+	}
+  }
+
+@media (min-width: 992px) {
+	.container {
+	  max-width: 1100px;
+	}
+  }
+  
+  @media (min-width: 1200px) {
+	.container {
+	  max-width: 1350px;
+	}
+  }
+
+  .estiloTitulo {
+	  background-color: #0b4376;
+	  color: white;
+	  text-align: center;
+  }
+
+  .estiloTituloInvertido {
+	background-color: white;
+	color: #0b4376;
+	text-align: center;
+}
