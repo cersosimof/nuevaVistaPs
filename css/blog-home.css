@@ -71,10 +71,21 @@ body {
 	  background-color: #0b4376;
 	  color: white;
 	  text-align: center;
+	  height: 40px;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+
   }
 
   .estiloTituloInvertido {
 	background-color: white;
 	color: #0b4376;
 	text-align: center;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
+
